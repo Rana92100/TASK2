@@ -1,0 +1,190 @@
+h1{
+    font-size: 30px;
+    color: white;
+    font-style:normal;
+ 
+}
+header{
+    height: calc(100vh - 30px);
+    background-image: url(../img/FB_IMG_1691775878847.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width : 100vw ;
+}
+.part1{
+    margin-top: 300px;
+}
+nav{
+    height: 30px;
+    background-color: rgb(106, 125, 125);
+    display: flex ;
+    justify-content: space-around;
+    align-items: center;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+.part2{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 400px;
+}
+.part2 h2{
+    padding-top: 150px;
+}
+.part3{
+    height :400px ;
+    width :100vw ;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.part3 Div{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.part3 Div div{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.part4{
+    min-height: 400px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.part4 DIV{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.part4 DIV div{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px;
+}
+.part5{
+    width: 100vw;
+    min-height: 600px;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+
+}
+.part5 DIv{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+
+}
+.part5 DIv div{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    border: 1px solid black;
+}
+.part5 DIv div img{
+    margin-left: 25px;
+}
+
+.part6{
+    width: 100vw;
+    min-height: 800px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.part6 h3{
+    display: inline-block;
+    padding-left:50px;
+}
+
+ul{
+    list-style-position: inside;
+}
+.part6 .AA{
+    width: 220px;
+    background-color: yellow;
+}
+.part6 .AA p{
+    display: inline-block;
+    padding-left: 10px;
+
+}
+.part6 .Q{
+    width: 220px;
+    background-color: bisque ;
+    padding: 10px;
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.part7{
+    min-height: 650px;
+    width: 100vw;
+    background-color: bisque ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.Y{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 0px auto;   
+}
+.R{
+    width: 120px;
+    background-color: black;
+    color: white;
+    margin-left: 150px;
+    margin-top: 10px;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+footer{
+    background-color:  rgb(106, 125, 125);
+    height: 20px;
+    display: flex;
+    justify-content: center;
+}
+@media (max-width : 500px){
+    .Y{
+        width: 300px;
+    }
+    .R{
+        margin-left: 75px;
+    }
+    h1{
+        font-size: 25px;
+    }
+}
